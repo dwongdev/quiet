@@ -12,6 +12,12 @@ Components marked [stable] are well-tested, ready for production, and less likel
 
 ## Releases
 
+### Unreleased
+
+<small>TBD</small>
+
+- Added Thai translation [pr:38]
+
 ### 1.6.2
 
 <small>November 3, 2025</small>

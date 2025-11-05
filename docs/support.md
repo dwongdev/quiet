@@ -30,11 +30,10 @@ Quiet UI is available under the terms of the [MIT License](https://github.com/qu
     <quiet-icon class="pricing-tier-icon" name="heart-handshake" style="color: deeppink;"></quiet-icon>
     <h3 data-no-anchor>Sponsor</h3><br>
     <ul>
-      <li><quiet-icon name="check" style="color: #7db664;"></quiet-icon> Private Discord access</li>
+      <li><quiet-icon name="check" style="color: #7db664;"></quiet-icon> Sponsors badge</li>
       <li><quiet-icon name="check" style="color: #7db664;"></quiet-icon> Help from the maintainer</li>
       <li><quiet-icon name="check" style="color: #7db664;"></quiet-icon> Priority bug fixes</li>
       <li><quiet-icon name="check" style="color: #7db664;"></quiet-icon> Fast response times</li>
-      <li><quiet-icon name="check" style="color: #7db664;"></quiet-icon> Sponsors badge</li>
       <li><quiet-icon name="check" style="color: #7db664;"></quiet-icon> Support development</li>
     </ul>
     <quiet-button variant="primary" pill href="https://github.com/sponsors/quietui">

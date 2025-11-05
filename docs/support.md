@@ -33,7 +33,7 @@ Quiet UI is available under the terms of the [MIT License](https://github.com/qu
       <li><quiet-icon name="check" style="color: #7db664;"></quiet-icon> Sponsors badge</li>
       <li><quiet-icon name="check" style="color: #7db664;"></quiet-icon> Help from the maintainer</li>
       <li><quiet-icon name="check" style="color: #7db664;"></quiet-icon> Priority bug fixes</li>
-      <li><quiet-icon name="check" style="color: #7db664;"></quiet-icon> Fast response times</li>
+      <li><quiet-icon name="check" style="color: #7db664;"></quiet-icon> Faster response times</li>
       <li><quiet-icon name="check" style="color: #7db664;"></quiet-icon> Support development</li>
     </ul>
     <quiet-button variant="primary" pill href="https://github.com/sponsors/quietui">

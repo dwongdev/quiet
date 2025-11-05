@@ -39,7 +39,7 @@ Quiet UI is available under the terms of the [MIT License](https://github.com/qu
     <quiet-button variant="primary" pill href="https://github.com/sponsors/quietui">
       Sponsor on GitHub
     </quiet-button>
-    <div class="ribbon">BEST PICK</div>
+    <div class="ribbon">THANK YOU</div>
   </div>  
   
   <div class="pricing-tier">

@@ -1858,7 +1858,7 @@ h1.title + p:has(quiet-badge:first-child):has(quiet-badge:last-child) {
     right: 1rem;
     align-items: center;
     justify-content: center;
-    width: 3.75rem;
+    width: 4rem;
     height: 5rem;
     padding-inline: 0.5rem;
     padding-block-end: 0.5rem;

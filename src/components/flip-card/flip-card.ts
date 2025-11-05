@@ -35,7 +35,7 @@ export class QuietFlipCard extends QuietElement {
   private isFirstUpdate = true;
   private preventNextUpdate = false;
 
-  @query('slot:not([name])') defaultSlot: HTMLSlotElement;
+  @query('slot[name="front"]') defaultSlot: HTMLSlotElement;
   @query('slot[name="back"]') backSlot: HTMLSlotElement;
 
   /** Flips the card. */

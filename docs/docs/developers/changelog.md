@@ -12,12 +12,13 @@ Components marked [stable] are well-tested, ready for production, and less likel
 
 ## Releases
 
-### Unreleased
+### 1.6.2
 
-<small>TBD</small>
+<small>November 3, 2025</small>
 
 - Fixed a bug that prevented `:focus-visible` styles from showing in `<quiet-slide-activator>` and `<quiet-toggle-tag>` in Safari and Firefox [issue:31]
 - Fixed a missing `:focus-visible` outline in `<quiet-infinite-scroller>`
+- Fixed a bug in `<quiet-flip-card>` that caused an error to appear in the console when flipping [pr:36]
 - Improved the Russian translation [pr:30]
 
 ### 1.6.1

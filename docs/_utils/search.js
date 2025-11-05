@@ -23,8 +23,7 @@ export function searchPlugin(options = {}) {
 
   return function (eleventyConfig) {
     const pagesToSkip = [
-      '/404.html', // permalinks use the extension
-      '/purchase-complete/' // other URLs do not
+      '/404.html' // permalinks use the extension
     ];
     const pagesToIndex = [
       //

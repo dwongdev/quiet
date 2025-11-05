@@ -7,7 +7,7 @@ section: support
 bodyClass: with-grid
 ---
 
-Quiet UI is available under the terms of the [MIT License](https://github.com/quietui/quiet/blob/main/LICENSE). Help and support is available from the maintainer through the ==Quiet Insider== program, which gives you access to the private Discord, insider-only content, and other perks. For community support, please visit the [public forum](https://github.com/quietui/quiet/discussions).
+Quiet UI is available under the terms of the [MIT License](https://github.com/quietui/quiet/blob/main/LICENSE). For community support, please visit the [public forum](https://github.com/quietui/quiet/discussions).
 
 <div class="pricing-tiers-triple">
   <div class="pricing-tier">
@@ -17,9 +17,8 @@ Quiet UI is available under the terms of the [MIT License](https://github.com/qu
       <li><quiet-icon name="code" style="color: #f0803a;"></quiet-icon> View the code</li>
       <li><quiet-icon name="tool" style="color: #848da1;"></quiet-icon> Modify the code</li>
       <li><quiet-icon name="users-group" style="color: #20b9bd;"></quiet-icon> Community support</li>
+      <li><quiet-icon name="x" style="color: #b91c1c;"></quiet-icon> <s>Help from the maintainer</s></li>
       <li><quiet-icon name="x" style="color: #b91c1c;"></quiet-icon> <s>Priority bug fixes</s></li>
-      <li><quiet-icon name="x" style="color: #b91c1c;"></quiet-icon> <s>Private Discord access</s></li>
-      <li><quiet-icon name="x" style="color: #b91c1c;"></quiet-icon> <s>Insider-only content</s></li>
     </ul>
     <quiet-button pill href="https://github.com/quietui/quiet" target="_blank">
       <quiet-icon slot="start" name="brand-github"></quiet-icon>
@@ -28,47 +27,37 @@ Quiet UI is available under the terms of the [MIT License](https://github.com/qu
   </div>
 
   <div class="pricing-tier with-ribbon">
-    <img class="pricing-tier-icon quiet-if-light" src="/assets/images/symbol-light.svg" alt="Quiet logo">
-    <img class="pricing-tier-icon quiet-if-dark" src="/assets/images/symbol-dark.svg" alt="Quiet logo">
-    <h3 data-no-anchor>Quiet Insider</h3><br>
+    <quiet-icon class="pricing-tier-icon" name="heart-handshake" style="color: deeppink;"></quiet-icon>
+    <h3 data-no-anchor>Sponsor</h3><br>
     <ul>
       <li><quiet-icon name="check" style="color: #7db664;"></quiet-icon> Help from the maintainer</li>
       <li><quiet-icon name="check" style="color: #7db664;"></quiet-icon> Priority bug fixes</li>
-      <li><quiet-icon name="check" style="color: #7db664;"></quiet-icon> Private Discord access</li>
       <li><quiet-icon name="check" style="color: #7db664;"></quiet-icon> Fast response times</li>
-      <li><quiet-icon name="check" style="color: #7db664;"></quiet-icon> Insider-only content</li>
-      <li><quiet-icon name="check" style="color: #7db664;"></quiet-icon> Pay what you want*</li>
+      <li><quiet-icon name="check" style="color: #7db664;"></quiet-icon> Sponsors badge</li>
+      <li><quiet-icon name="check" style="color: #7db664;"></quiet-icon> Support development</li>
     </ul>
-    <quiet-button variant="primary" pill href="https://buy.polar.sh/polar_cl_mpasqxfW1U2foivCOYuS9Lux4uUk459jIywEA27Z3gm">
-      Become an Insider
+    <quiet-button variant="primary" pill href="https://github.com/sponsors/quietui">
+      Sponsor on GitHub
     </quiet-button>
     <div class="ribbon">TOP PICK</div>
   </div>  
   
   <div class="pricing-tier">
-    <quiet-icon class="pricing-tier-icon" name="heart-handshake" style="color: deeppink;"></quiet-icon>
-    <h3 data-no-anchor>Sponsor</h3><br>
+    <quiet-icon class="pricing-tier-icon" name="comet" style="color: #e89c25;"></quiet-icon>
+    <h3 data-no-anchor>Stargazer</h3><br>
     <ul>
-      <li><quiet-icon name="rosette-discount-check" style="color: #4b97f4;"></quiet-icon> GitHub Sponsor badge</li>
-      <li><quiet-icon name="bulldozer" style="color: #e89b25;"></quiet-icon> Support development</li>
-      <li><quiet-icon name="refresh" style="color: #48b873;"></quiet-icon> Good karma</li>
-      <li><quiet-icon name="x" style="color: #b91c1c;"></quiet-icon> <s>Priority bug fixes</s></li>
-      <li><quiet-icon name="x" style="color: #b91c1c;"></quiet-icon> <s>Private Discord access</s></li>
-      <li><quiet-icon name="x" style="color: #b91c1c;"></quiet-icon> <s>Insider-only content</s></li>
+      <li><quiet-icon name="click" style="color: #4b97f4;"></quiet-icon> Just a click</li>
+      <li><quiet-icon name="ban" style="color: #48b873;"></quiet-icon> Costs nothing</li>
+      <li><quiet-icon name="yin-yang" style="color: #ef6383;"></quiet-icon> Good karma</li>
+      <li><quiet-icon name="telescope" style="color: #e89b25;"></quiet-icon> Raises awareness</li>
+      <li><quiet-icon name="cat" style="color: #848da1;"></quiet-icon> Makes the cats happy</li>
     </ul>
-    <quiet-button pill href="https://github.com/sponsors/quietui">
-      Sponsor on GitHub
+    <quiet-button pill href="https://github.com/quietui/quiet/stargazers" target="_blank">
+      <quiet-icon slot="start" name="star"></quiet-icon>
+      Star on GitHub
     </quiet-button>
   </div>
 </div>
-
-<p style="text-align: center; text-wrap: balance; margin-block: 2.5rem 2rem;">
-  <small>
-    *Minimum applies
-    &middot;
-    Visit the <a href="https://polar.sh/quietui/portal" class="link-disguised" data-no-external>customer portal</a> to access Discord, order history, and receipts.
-  </small>
-</p>
 
 <ul class="features-grid" aria-label="Features">
   <li>
@@ -105,7 +94,7 @@ Quiet UI is available under the terms of the [MIT License](https://github.com/qu
 
 <p style="text-align: center; text-wrap: balance; margin-block: 2.5rem 2rem;">
   <small>
-    Becoming an insider is the best way to support the project and get help. Receipts available for tax purposes.
+    Quiet UI is an open source project. Consider <a href="https://github.com/sponsors/quietui" target="_blank">supporting the project</a> with a one-time or recurring sponsorship.
   </small>
 </p>
 
@@ -119,18 +108,14 @@ Quiet UI is available under the terms of the [MIT License](https://github.com/qu
     margin-block: 2.5rem 2rem;
   "
 >
-  <quiet-button variant="primary" size="lg" pill href="https://buy.polar.sh/polar_cl_mpasqxfW1U2foivCOYuS9Lux4uUk459jIywEA27Z3gm">
-    Become an Insider
+  <quiet-button variant="primary" size="lg" pill href="https://github.com/sponsors/quietui">
+    Sponsor on GitHub
   </quiet-button>
 </div>
 
 ---
 
 ## Frequently asked questions
-
-:::details Where can I find my order history, Discord access, and tax receipts?
-You can find your past orders, receipts, and get Discord access in the [customer portal](https://polar.sh/quietui/portal).
-:::
 
 :::details How can I report a bug? {.faq}
 Bugs should be [reported on GitHub](https://github.com/quietui/quiet/issues). For best results, please include a minimal reproduction with your report.

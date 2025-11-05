@@ -31,7 +31,7 @@ Splitters follow the [ARIA APG window splitter](https://www.w3.org/WAI/ARIA/apg/
 
 ## Setting the position
 
-You can set the initial position of the divider using the `position` attribute or update it programmatically via JavaScript. The value is a number from 0 to 100 representing the divider's position as a percentage.
+You can set the initial position of the divider using the `position` attribute or update it programmatically via JavaScript. The value is a number from 0 to 1 representing the divider's position as a percentage.
 
 ```html {.example}
 <quiet-splitter position=".75" id="splitter__position">

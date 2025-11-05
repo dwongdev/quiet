@@ -22,6 +22,7 @@ Translations are self-registering, so simply importing them as shown above makes
 - `de` - German
 - `ru` - Russian
 - `es` - Spanish
+- `th` - Thai
 
 </div>
 

@@ -7,56 +7,56 @@ Perfect for showcasing rotating testimonials, featured products, helpful tips, o
 
 ```html {.example}
 <quiet-random-content unique style="display: flex; flex-direction: column; gap: 1rem;" id="random__overview">
-  <quiet-card class="testimonial">
+  <quiet-card class="quote">
     <quiet-avatar image="https://images.unsplash.com/photo-1672487209629-4d52e0c043d0?q=80&w=256&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"></quiet-avatar>
     <div>
       "The new scratching post is perfect! I sharpen my claws on it every morning."
       <cite>– Meowy McGee</cite>
     </div>
   </quiet-card>
-  <quiet-card class="testimonial">
+  <quiet-card class="quote">
     <quiet-avatar image="https://images.unsplash.com/photo-1529778873920-4da4926a72c2?q=80&w=256&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"></quiet-avatar>
     <div>
       "Those catnip toys make me go absolutely bonkers!
       <cite>– Princess Mittens</cite>
     </div>
   </quiet-card>
-  <quiet-card class="testimonial">
+  <quiet-card class="quote">
     <quiet-avatar image="https://images.unsplash.com/photo-1569591159212-b02ea8a9f239?q=80&w=256&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"></quiet-avatar>
     <div>
       "Finally, a food that meets my refined palate."
       <cite>– Sir Fluffington</cite>
     </div>
   </quiet-card>
-  <quiet-card class="testimonial">
+  <quiet-card class="quote">
     <quiet-avatar image="https://images.unsplash.com/photo-1735820474275-dd0ff4f28d71?q=80&w=256&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"></quiet-avatar>
     <div>
       "The automatic feeder ensures my 3 AM breakfast is always on time.
       <cite>– Shadow</cite>
     </div>
   </quiet-card>
-  <quiet-card class="testimonial">
+  <quiet-card class="quote">
     <quiet-avatar image="https://images.unsplash.com/photo-1504384558400-c1347a7bd18f?q=80&w=256&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"></quiet-avatar>
     <div>
       "One day I'll catch that red dot, mark my words."
       <cite>– Captain Paws</cite>
     </div>
   </quiet-card>
-  <quiet-card class="testimonial">
+  <quiet-card class="quote">
     <quiet-avatar image="https://images.unsplash.com/photo-1472491235688-bdc81a63246e?q=80&w=256&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"></quiet-avatar>
     <div>
       "I've been sleeping 20 hours a day instead of my usual 18!"
       <cite>– Luna Belle</cite>
     </div>
   </quiet-card>
-  <quiet-card class="testimonial">
+  <quiet-card class="quote">
     <quiet-avatar image="https://images.unsplash.com/photo-1574158622682-e40e69881006?q=80&w=256&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"></quiet-avatar>
     <div>
       "I no longer need to demand fresh water from the tap every hour."
       <cite>– Duchess Whiskertons</cite>
     </div>
   </quiet-card>
-  <quiet-card class="testimonial">
+  <quiet-card class="quote">
     <quiet-avatar image="https://images.unsplash.com/photo-1615497001839-b0a0eac3274c?q=80&w=256&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"></quiet-avatar>
     <div>
       "I survey my kingdom from the top of the fridge daily."
@@ -89,7 +89,7 @@ Perfect for showcasing rotating testimonials, featured products, helpful tips, o
       font-size: 0.9375em;
     }
 
-    .testimonial {
+    .quote {
       quiet-avatar {
         --size: 5rem;
         flex-shrink: 0;

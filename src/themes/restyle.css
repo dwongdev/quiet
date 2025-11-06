@@ -344,6 +344,7 @@
     border-radius: var(--quiet-border-radius-md);
     background-color: var(--quiet-paper-color);
     box-shadow: var(--quiet-shadow-softer);
+    interpolate-size: allow-keywords;
 
     &[open] {
       padding-block-end: calc(var(--quiet-content-spacing) / 2);
@@ -351,6 +352,24 @@
 
     &[open] > summary::before {
       rotate: 90deg;
+    }
+
+    &::details-content {
+      height: 0;
+      overflow: hidden;
+      transition:
+        height 200ms ease,
+        content-visibility 200ms ease allow-discrete;
+    }
+
+    &[open]::details-content {
+      height: auto;
+    }
+
+    @starting-style {
+      &[open]::details-content {
+        height: 0;
+      }
     }
 
     summary {
@@ -405,7 +424,7 @@
       background-repeat: no-repeat;
       content: '';
       color: var(--quiet-text-body);
-      transition: rotate 50ms ease;
+      transition: rotate 200ms ease;
     }
 
     &::-webkit-details-marker {

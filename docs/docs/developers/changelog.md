@@ -17,6 +17,7 @@ Components marked [stable] are well-tested, ready for production, and less likel
 <small>TBD</small>
 
 - Added Thai translation [pr:38]
+- Improved `<details>` styles in Restyle so they animate in supportive browsers
 
 ### 1.6.2
 

@@ -26,7 +26,7 @@ With Quiet, you no longer need to learn a new UI library when you switch framewo
   >
 </a>
 
-Quiet is built and maintained by Cory LaViska ([X](https://x.com/claviska) / [BlueSky](https://bsky.app/profile/cory.laviska.com) / [Mastodon](https://mastodon.social/@claviska) / [LinkedIn](https://www.linkedin.com/in/claviska/)). It's my personal playground. A passion project. My creative outlet. 
+Quiet is built and maintained by Cory LaViska ([X](https://x.com/claviska) / [BlueSky](https://bsky.app/profile/cory.laviska.com) / [LinkedIn](https://www.linkedin.com/in/claviska/)). It's my personal playground. A passion project. My creative outlet. 
 
 It's something I'm building from scratch to explore new ideas and have fun. A place where I can satisfy my component addiction, improve my design skills, explore new Web APIs, and let my curiosity run wild.
 

@@ -49,7 +49,7 @@ Use the `size` attribute to set the QR code's generated size in pixels. The inte
 ```html {.example}
 <div id="qr__size">
   <quiet-slider label="Size" min="64" max="256" value="160" orientation="vertical" with-tooltip tooltip-placement="left"></quiet-slider>
-  <quiet-qr data="https://x.com/quiet_ui/" size="160"></quiet-qr>
+  <quiet-qr data="https://quietui.org/" size="160"></quiet-qr>
 </div>
 
 <script>
@@ -104,7 +104,7 @@ The element's background is transparent by default, but you can style it with CS
 ></quiet-qr>
 
 <quiet-qr 
-  data="https://x.com/quiet_ui/" 
+  data="https://quietui.org/" 
   corners="0"
   style="
     background: radial-gradient(circle at 12.3% 19.3%, rgb(85, 88, 218) 0%, rgb(95, 209, 249) 100.2%);

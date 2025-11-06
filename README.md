@@ -24,9 +24,6 @@ You might be curious to learn that Quiet's components aren't built with React, V
 - [Report a bug](https://github.com/quietui/quiet/issues/new/choose)
 - [Ask for help](https://quietui.org/support)
 - [Star the project on GitHub](https://github.com/quietui/quiet/stargazers)
-- [Follow the project on Bluesky](https://bsky.app/profile/quietui.org)
-- [Follow the project on Mastodon](https://mastodon.social/@quietui)
-- [Follow the project on X](https://x.com/quiet_ui)
 
 ## Developer instructions
 

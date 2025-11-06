@@ -24,9 +24,7 @@ const resources = [
     title: 'GitHub Repository',
     description: 'Source code and development information',
     url: 'https://github.com/quietui/quiet'
-  },
-  { title: 'X / Twitter', description: 'Follow the project on X', url: 'https://x.com/quiet_ui' },
-  { title: 'Bluesky', description: 'Follow the project on Bluesky', url: 'https://bsky.app/profile/quietui.org' }
+  }
 ];
 
 // Helper function to convert PascalCase to Title Case

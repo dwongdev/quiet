@@ -48,26 +48,6 @@ export function searchPlugin(options = {}) {
         title: 'Star this project on GitHub',
         description: `It might be a silly metric, but it can't hurt.`,
         url: 'https://github.com/quietui/quiet/stargazers'
-      },
-      {
-        title: 'Quiet UI on Bluesky',
-        description: 'Follow the project on Bluesky.',
-        url: 'https://bsky.app/profile/quietui.org'
-      },
-      {
-        title: 'Quiet UI on Mastodon',
-        description: 'Follow the project on Mastodon.',
-        url: 'https://mastodon.social/@quietui'
-      },
-      {
-        title: 'Quiet UI on X (Twitter)',
-        description: 'Follow the project on the platform formerly known as Twitter.',
-        url: 'https://x.com/quiet_ui'
-      },
-      {
-        title: 'Cory LaViska on X (Twitter)',
-        description: 'Follow the creator on the platform formerly known as Twitter.',
-        url: 'https://x.com/claviska'
       }
     ];
 
